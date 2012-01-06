@@ -1,0 +1,13 @@
+META.yml
+MYMETA.yml
+MYMETA.json
+Makefile
+Makefile.old
+MANIFEST.bak
+inc/
+blib/
+xs-src/AAlib.[co]
+*.bs
+pm_to_blib
+ppport.h
+*~

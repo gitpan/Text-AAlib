@@ -1,0 +1,34 @@
+---
+abstract: 'Perl Binding for AAlib'
+author:
+  - 'Syohei YOSHIDA <syohex@gmail.com>'
+build_requires:
+  Devel::PPPort: 3.2
+  ExtUtils::MakeMaker: 6.62
+  Test::More: 0.88
+configure_requires:
+  Devel::PPPort: 3.2
+  ExtUtils::MakeMaker: 6.62
+  ExtUtils::ParseXS: 2.21
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.04'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Text-AAlib
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+recommends:
+  Imager: 0.81
+requires:
+  Term::ANSIColor: 0
+  XSLoader: 0.02
+  perl: 5.8.1
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
