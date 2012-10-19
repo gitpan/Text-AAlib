@@ -3,7 +3,7 @@ package Module::Install::XSUtil;
 
 use 5.005_03;
 
-$VERSION = '0.42';
+$VERSION = '0.43';
 
 use Module::Install::Base;
 @ISA     = qw(Module::Install::Base);
@@ -383,7 +383,7 @@ sub cc_define{
     return;
 }
 
-sub requires_xs{
+sub requires_xs_module {
     my $self  = shift;
 
     return $self->requires() unless @_;
@@ -802,4 +802,4 @@ sub xs_o {
 1;
 __END__
 
-#line 1025
+#line 1016
