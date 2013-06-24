@@ -3,16 +3,15 @@ abstract: 'Perl Binding for AAlib'
 author:
   - 'Syohei YOSHIDA <syohex@gmail.com>'
 build_requires:
-  Devel::PPPort: 3.2
-  ExtUtils::MakeMaker: 6.59
   Test::More: 0.88
 configure_requires:
-  Devel::PPPort: 3.2
-  ExtUtils::MakeMaker: 6.59
-  ExtUtils::ParseXS: 2.21
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Devel::CheckLib: 0
+  Module::Build: 0.38
+  Module::Build::XSUtil: 0.02
+dynamic_config: 0
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,15 +19,25 @@ meta-spec:
 name: Text-AAlib
 no_index:
   directory:
-    - inc
     - t
     - xt
-recommends:
-  Imager: 0.81
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - benchmark
+    - builder
+provides:
+  Text::AAlib:
+    file: lib/Text/AAlib.pm
+    version: 0.04
 requires:
   Term::ANSIColor: 0
   XSLoader: 0.02
-  perl: 5.8.1
+  perl: 5.008001
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.03
+  bugtracker: https://github.com/syohex/p5-Text-AAlib/issues
+  homepage: https://github.com/syohex/p5-Text-AAlib
+  repository: https://github.com/syohex/p5-Text-AAlib
+version: 0.04
