@@ -31,7 +31,7 @@ no_index:
 provides:
   Text::AAlib:
     file: lib/Text/AAlib.pm
-    version: 0.04
+    version: 0.05
 requires:
   Term::ANSIColor: 0
   XSLoader: 0.02
@@ -39,5 +39,5 @@ requires:
 resources:
   bugtracker: https://github.com/syohex/p5-Text-AAlib/issues
   homepage: https://github.com/syohex/p5-Text-AAlib
-  repository: https://github.com/syohex/p5-Text-AAlib
-version: 0.04
+  repository: git://github.com/syohex/p5-Text-AAlib.git
+version: 0.05

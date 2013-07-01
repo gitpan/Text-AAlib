@@ -58,7 +58,7 @@
    "provides" : {
       "Text::AAlib" : {
          "file" : "lib/Text/AAlib.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -68,9 +68,9 @@
       },
       "homepage" : "https://github.com/syohex/p5-Text-AAlib",
       "repository" : {
-         "url" : "https://github.com/syohex/p5-Text-AAlib",
+         "url" : "git://github.com/syohex/p5-Text-AAlib.git",
          "web" : "https://github.com/syohex/p5-Text-AAlib"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
