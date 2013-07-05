@@ -4,7 +4,7 @@
       "Syohei YOSHIDA <syohex@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3",
+   "generated_by" : "Minilla/v0.5.5",
    "license" : "perl_5",
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -35,6 +35,7 @@
             "CPAN::Meta" : "0",
             "CPAN::Meta::Prereqs" : "0",
             "Devel::CheckLib" : "0",
+            "File::Which" : "0",
             "Module::Build" : "0.38",
             "Module::Build::XSUtil" : "0.02"
          }
@@ -58,7 +59,7 @@
    "provides" : {
       "Text::AAlib" : {
          "file" : "lib/Text/AAlib.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
@@ -72,5 +73,5 @@
          "web" : "https://github.com/syohex/p5-Text-AAlib"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }

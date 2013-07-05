@@ -8,10 +8,11 @@ configure_requires:
   CPAN::Meta: 0
   CPAN::Meta::Prereqs: 0
   Devel::CheckLib: 0
+  File::Which: 0
   Module::Build: 0.38
   Module::Build::XSUtil: 0.02
 dynamic_config: 0
-generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Minilla/v0.5.5, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -31,7 +32,7 @@ no_index:
 provides:
   Text::AAlib:
     file: lib/Text/AAlib.pm
-    version: 0.05
+    version: 0.06
 requires:
   Term::ANSIColor: 0
   XSLoader: 0.02
@@ -40,4 +41,4 @@ resources:
   bugtracker: https://github.com/syohex/p5-Text-AAlib/issues
   homepage: https://github.com/syohex/p5-Text-AAlib
   repository: git://github.com/syohex/p5-Text-AAlib.git
-version: 0.05
+version: 0.06
